@@ -18,7 +18,10 @@ def connect_to_snowflake() -> Session:
 
 def write_pandas_to_snowflake(df: pd.DataFrame, loc: str, sess: Session):
     sdf = sess.create_dataframe(df)
-    sdf.write.mode("overwrite").save_as_table(f"techcatalyst_de.jc.snowpark_{loc}")
+    
+    target = f"techcatalyst_de.js.snowpark_{loc}"
+    print(f"writing: {target}")
+    sdf.write.mode("overwrite").save_as_table(target)
 
 
 def transform_fact_accidents(df: pd.DataFrame) -> pd.DataFrame:

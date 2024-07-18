@@ -54,8 +54,9 @@ if __name__ == "__main__":
     stream_name = 'jc-ds'
     # Reading the yellow_taxis parquet file and stream it
     df = pd.read_parquet('s3://techcatalyst-public/yellow_tripdata_2024-01.parquet',
-                     storage_options={
-                      'key': aws_access_key_id,
-                     'secret': aws_secret_access_key,
-                     })
+                         storage_options={
+                            'key': aws_access_key_id,
+                            'secret': aws_secret_access_key,
+                            }
+                        )
     stream_data(df, stream_name)

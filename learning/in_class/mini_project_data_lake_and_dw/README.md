@@ -39,7 +39,7 @@ CREATE OR REPLACE TRANSIENT TABLE techcatalyst_de.jc.ARTIST_DIM (
 ```
 
 ## Diagram
-- TODO
+![png](./learning/in_class/mini_project_data_lake_and_dw/diagram.png)
 
 ## Data Lake and Data Warehouse Purpose
 ### Data Lake

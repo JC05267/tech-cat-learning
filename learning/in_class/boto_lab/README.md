@@ -114,3 +114,7 @@ Cons:
 
 Does not handle multipart downloads automatically.
 Requires more complex handling compared to download_file.
+
+
+## Note
+test files were generated with `base64 /dev/urandom| head -c 10000 > <test_file>.txt`

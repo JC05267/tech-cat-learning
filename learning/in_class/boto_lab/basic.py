@@ -21,13 +21,14 @@ type(response)
 response.keys()
 
 bucket_name = "jc-bucket-lab"
-#location = {'LocationConstraint': 'us-east-1'}
+location = {'LocationConstraint': 'us-east-1'}
 
 
 def create_bucket():
     s3.create_bucket(
        Bucket=bucket_name,
-#       CreateBucketConfiguration=location
+       # only include this if the region is NOT us-east-1
+       # CreateBucketConfiguration=location
     )
 
 

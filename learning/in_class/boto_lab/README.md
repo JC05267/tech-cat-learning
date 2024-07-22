@@ -1,5 +1,7 @@
-# S3 Upload and Download Methods
+# Basic Process Diagram
+![png](./diagram.png)
 
+# S3 Upload and Download Methods
 S3 has several methods for uploading and downloading files with boto3.
 
 They are: upload_file, upload_fileobj, put_object, download_file, download_fileobj, get_object
@@ -114,7 +116,6 @@ Cons:
 
 Does not handle multipart downloads automatically.
 Requires more complex handling compared to download_file.
-
 
 ## Note
 test files were generated with `base64 /dev/urandom| head -c 10000 > <test_file>.txt`

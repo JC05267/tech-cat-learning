@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T20:27:59.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="AnFykXrFRV23MKBx90hv" version="24.7.3" type="device">
+<mxfile host="app.diagrams.net" modified="2024-07-24T20:35:10.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="15dfAXMnEtRcrhLfKUnH" version="24.7.3" type="device">
   <diagram name="Page-1" id="2BfRxoZrWwSCoqgNsyMZ">
     <mxGraphModel dx="2528" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VO-CeC91Fq87U0WWgzKU-139" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1018.1800000000002" y="170" width="166.82" height="319" as="geometry" />
+        </mxCell>
         <mxCell id="VO-CeC91Fq87U0WWgzKU-131" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="210" y="371.95" width="490" height="668.05" as="geometry" />
         </mxCell>
@@ -55,26 +58,8 @@
         <mxCell id="VO-CeC91Fq87U0WWgzKU-25" value="Redis&amp;nbsp;&lt;div&gt;Cache Layer&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
           <mxGeometry x="371" y="185.5" width="107.14" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="VO-CeC91Fq87U0WWgzKU-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VO-CeC91Fq87U0WWgzKU-38" target="VO-CeC91Fq87U0WWgzKU-123">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1100" y="380" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VO-CeC91Fq87U0WWgzKU-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VO-CeC91Fq87U0WWgzKU-38" target="VO-CeC91Fq87U0WWgzKU-124">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1100" y="521" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VO-CeC91Fq87U0WWgzKU-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VO-CeC91Fq87U0WWgzKU-38" target="VO-CeC91Fq87U0WWgzKU-122">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1102" y="450" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="VO-CeC91Fq87U0WWgzKU-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VO-CeC91Fq87U0WWgzKU-38" target="VO-CeC91Fq87U0WWgzKU-139">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VO-CeC91Fq87U0WWgzKU-38" value="Snowflake Data warehouse" style="shape=mxgraph.signs.nature.snowflake;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1040" y="560" width="123.18" height="132" as="geometry" />
@@ -238,13 +223,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VO-CeC91Fq87U0WWgzKU-122" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" vertex="1" parent="1">
-          <mxGeometry x="1196.9999999999998" y="420" width="78" height="59" as="geometry" />
+          <mxGeometry x="1062.5899999999997" y="331.55" width="78" height="59" as="geometry" />
         </mxCell>
         <mxCell id="VO-CeC91Fq87U0WWgzKU-123" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" vertex="1" parent="1">
-          <mxGeometry x="1196.9999999999998" y="350" width="78" height="59" as="geometry" />
+          <mxGeometry x="1062.5899999999997" y="257.05" width="78" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="VO-CeC91Fq87U0WWgzKU-124" value="Tableau&lt;div&gt;(Analyst Dashboarding)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" vertex="1" parent="1">
-          <mxGeometry x="1196.9999999999998" y="491" width="78" height="59" as="geometry" />
+        <mxCell id="VO-CeC91Fq87U0WWgzKU-124" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" vertex="1" parent="1">
+          <mxGeometry x="1062.5899999999997" y="408.05" width="78" height="59" as="geometry" />
         </mxCell>
         <mxCell id="VO-CeC91Fq87U0WWgzKU-128" value="Realtime" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="101.95000000000005" width="60" height="30" as="geometry" />
@@ -288,11 +273,11 @@
         <mxCell id="VO-CeC91Fq87U0WWgzKU-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VO-CeC91Fq87U0WWgzKU-77" target="VO-CeC91Fq87U0WWgzKU-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VO-CeC91Fq87U0WWgzKU-132" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="590" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="VO-CeC91Fq87U0WWgzKU-133" value="Data Lake: s3://foo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="320" y="384" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VO-CeC91Fq87U0WWgzKU-140" value="Tableau: Analyst Dashboarding" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1028.77" y="206.05" width="136.82" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
